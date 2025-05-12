@@ -1,0 +1,9 @@
+<div class="container" [class.full-screen]="opened">
+  <div class="gift-box" *ngIf="!opened" (click)="openGift()">
+    🎁
+  </div>
+
+  <div class="card" *ngIf="opened">
+    <p>💌 Feliz día de la enfermera 💌</p>
+  </div>
+</div>
